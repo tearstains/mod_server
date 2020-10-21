@@ -23,7 +23,7 @@ const NewsList = () => {
   const [data, setData] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)([]);
   (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(() => {
     const fetchData = async () => {
-      const res = await fetch('http://hn.algolia.com/api/v1/search?query=react').then(rsp => rsp.json()).then(json => json.hits);
+      const res = await fetch('https://hn.algolia.com/api/v1/search?query=react').then(rsp => rsp.json()).then(json => json.hits);
       setData(res);
     };
 
