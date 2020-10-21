@@ -187,7 +187,7 @@
 /******/ 	
 /******/ 	/* webpack/runtime/publicPath */
 /******/ 	(() => {
-/******/ 		__webpack_require__.p = "/";
+/******/ 		__webpack_require__.p = "/mod_server/";
 /******/ 	})();
 /******/ 	
 /******/ 	/* webpack/runtime/consumes */
